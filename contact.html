@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+		body {
+			font-family: roboto, sans-serif; 
+			background: linear-gradient(to bottom, #242424, #000000); 
+			color: white; 
+			margin: 0; 
+			padding: 0; 
+		}
+
+		.button {
+			background-color: black;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			font-size: 14px;
+			cursor: pointer;
+			font-weight: bold; 
+			transition: transform 0.2s ease-in-out;
+			
+		}
+
+		.button:hover {
+			transform: translateY(-2px);
+			color: #e31c25; 
+		}
+
+		.header {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 8px;
+			background-color: rgb(11,11,11);
+			width: 100%;
+		}
+
+		.logo {
+			width: 160px;
+			height: 80px;
+		}
+		
+		.home {
+			width: 100px;
+			height: 100px;
+		}
+
+		.page-container {
+			height: calc(100vh - 160px); /* Subtract the heights of the header and footer */
+		}
+
+		.container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100%; 
+		}
+
+		.bold-text {
+			font-weight: bold; 
+		}
+
+		.button-container {
+			margin-left: 10px; 
+			margin-top: 0px; 
+			margin-right: 40px;
+		}
+		
+		.footer {
+			background-color: white;
+			padding: 8px;
+			width: 100%;
+			text-align: center;
+		}
+		
+		.social-icons {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		.social-icons li {
+			display: inline-block;
+			margin: 0 100px;
+		}
+		
+		.social-icons a {
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			background-color: white;
+			border-radius: 50%;
+			text-align: center;
+			line-height: 30px;
+			color: black;
+			text-decoration: none;
+			transition: background-color 0.2s ease-in-out;
+		}
+		.button-container a:nth-child(3) button {
+			color: #e31c25;
+	</style>
+	<title>Contact</title>
+</head>
+	
+<header class="header">
+		<a href="techzzproductions.html"><img src="techzzproductions_files/techzzproductions logo.PNG" alt="Logo" class="logo"></a>
+		<div class="button-container">
+			<a href="Work.html"><button class="button">Work</button></a>
+			<a href="showreel.html"><button class="button">Showreel</button></a>
+			<a href="contact.html"><button class="button">Contact</button></a>
+			<a href="about.html"><button class="button">About</button></a>
+		</div>
+	</header>
+
+<div class="page-container">
+	<div class="container">
+		<div class="container"><img src="techzzproductions_files/techzzproductions home .JPG" alt="My Image" width="250" height="450"></div>
+
+
+	</div>
+</div>
+	
+<footer class="footer">
+	<ul class="social-icons">
+		<li><a href="https://www.instagram.com/yourusername"><img src="techzzproductions_files/techzzproductions instagram logo.png" alt="Instagram" style="height: 30px; width: 30px;"></a></li>
+		<li><a href="https://www.twitter.com/yourusername">
+			<img src="techzzproductions_files/techzzproductions twitter logo.png" alt="Twitter" style="height: 30px; width: 30px;"></a></li>
+		<li><a href="https://www.youtube.com/yourusername"><img src="techzzproductions_files/techzzproductions youtube logo.png" alt="YouTube" style="height: 30px; width: 30px;"></a></li>
+	</ul>
+</footer>
+</html>
